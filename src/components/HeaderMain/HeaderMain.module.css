@@ -40,6 +40,13 @@
     align-items: center;
     background-color: #D7573B;
     color: black;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: 800ms;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
 }
 
 .textes {
@@ -56,4 +63,9 @@
 
 .color {
     color: white;
+    transition: 300ms;
+}
+
+.color:hover {
+    color: #D7573B;
 }

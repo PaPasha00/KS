@@ -20,11 +20,14 @@ const Registration = () => {
     };
 
     const handleLoginClick = () => {
+        if (login ===  'gopmiy36@gmail.com') {
+            return alert('Данный аккаунт уже зарегистрирован')
+        }   
         if (localStorage.getItem(login) === null && password === passwordTwo) {
             //@ts-ignore
             localStorage.setItem(`${login}`, JSON.stringify({login, password, books: []}))
             localStorage.setItem('currentAccount', JSON.stringify({login}))
-            navigate('/Office')
+            navigate('/Ofice')
         } else alert('Ошибка')
     };
 

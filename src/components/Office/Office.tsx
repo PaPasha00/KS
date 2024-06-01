@@ -11,13 +11,13 @@ const Office = () => {
     return (
         <div className={s.container}>
             <div className={s.My}>
-                Мои курсы «gopmiy36@gmail.com»
+                Мои курсы
             </div>
 
             <div className={s.krs} onClick={() => setShowCource(!showCource)}>
-                курс "Backend Java разработчик"  «Индивидуальный»
+                курс «Backend-разработчик Java»
                 <div className={s.potok}>
-                    23 поток
+                    12 поток
                 </div>
             </div>
 
@@ -110,7 +110,6 @@ const Office = () => {
                                                         Смотреть
                                                     </a>
                                                 </div>
-
                                             </div>
                                         )
                                     })}

@@ -8,20 +8,28 @@ import Office from './components/Office/Office';
 import Auth from './components/Autorize/Autorize';
 import HeaderMain from './components/HeaderMain/HeaderMain';
 import Registration from './components/Registrate/Registration';
+import OfficeFake from './components/OfficeFake';
 
 function App() {
   return (
     <BrowserRouter>
       <Provider store={store} >
-        <div className="App">
+        {
+          window.innerWidth < 1000
+          ? <div className='zagl'>
+            Используйте устройство на котором можно прогать 
+          </div>
+          : <div className="App">
           <HeaderMain />
             <Routes>
               <Route path='/' element={<Screen />} />
               <Route path='/Office/*' element={<Office />} />
               <Route path='/Auth' element={<Auth />} />
               <Route path='/Registration' element={<Registration />} />
+              <Route path='/Ofice' element={<OfficeFake />} />
             </Routes>
         </div>
+        }
       </Provider>
     </BrowserRouter>
 

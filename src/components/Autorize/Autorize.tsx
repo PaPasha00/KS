@@ -20,13 +20,13 @@ const Auth = () => {
     //@ts-ignore
     const handleLoginClick = () => {
         if (login ===  'gopmiy36@gmail.com' && password === 'pososi2000') {
-            navigate('/Office')
+            return navigate('/Office')
         }
         if (localStorage.getItem(login) !== null) {
             //@ts-ignore
             if (JSON.parse(localStorage.getItem(login)).login === login && JSON.parse(localStorage.getItem(login)).password === password) {
                 localStorage.setItem('currentAccount', JSON.stringify({login}))
-                navigate("/Office");
+                navigate("/Ofice");
             }
         } else alert('Проверьте введенные данные или зарегистрируйтесь')
     };
