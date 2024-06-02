@@ -53,8 +53,8 @@
     transition: 300ms ease all;
 }
 .buttonText:hover {
-    color: #000000;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    color: white;
+    border-bottom: 1px solid white;
 }
 .secondCont span {
     padding: 10px 0px;

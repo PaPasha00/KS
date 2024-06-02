@@ -12,10 +12,23 @@ const Office = () => {
         <div className={s.container}>
             <div className={s.My}>
                 Мои курсы
+
+                <div className={s.One}>
+                    1
+                </div>
             </div>
 
-            <div className={s.krs} onClick={() => setShowCource(!showCource)}>
-                курс «Backend-разработчик Java»
+            <div className={s.krs}>
+                <div className={s.flexC}>
+                    <div onClick={() => setShowCource(!showCource)} className={s.nameCource}>
+                        курс «Backend-разработчик Java»
+                    </div>
+                    <a href="asd" target="_blank" className={s.courator}>
+                        Написать куратору
+                    </a>
+                </div>
+
+
                 <div className={s.potok}>
                     12 поток
                 </div>

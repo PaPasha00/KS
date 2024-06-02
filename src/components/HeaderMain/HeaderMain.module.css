@@ -42,11 +42,11 @@
     color: black;
     font-weight: 900;
     letter-spacing: 1px;
-    transition: 800ms;
+    transition: 300ms;
 }
 
 .logo:hover {
-    transform: rotate(360deg);
+    transform: scale(1.15);
 }
 
 .textes {

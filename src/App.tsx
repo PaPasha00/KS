@@ -15,9 +15,9 @@ function App() {
     <BrowserRouter>
       <Provider store={store} >
         {
-          window.innerWidth < 1000
+          window.innerWidth < 800
           ? <div className='zagl'>
-            Используйте устройство на котором можно прогать 
+            Используйте устройство, <br></br> шириной экрана <br></br> больше чем 800px
           </div>
           : <div className="App">
           <HeaderMain />
