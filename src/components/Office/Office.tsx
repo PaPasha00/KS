@@ -23,7 +23,7 @@ const Office = () => {
                     <div onClick={() => setShowCource(!showCource)} className={s.nameCource}>
                         курс «Backend-разработчик Java»
                     </div>
-                    <a href="asd" target="_blank" className={s.courator}>
+                    <a href="https://signal.me/#eu/msapODWVAwLgHsG-XeuqN0wct9YKevEKIEUWKz86-LF7HPI85TdEep-os5_TjsIF" target="_blank" className={s.courator}>
                         Написать куратору
                     </a>
                 </div>
@@ -37,9 +37,9 @@ const Office = () => {
             {
                 showCource && (
                     <div className={s.modules}>
-                        <div className={s.mod} onClick={() => {
-                            setShowCourceM1(!showCourceM1)
-                            setShowCourceM2(false)
+                        <div className={s.modBl} onClick={() => {
+                            // setShowCourceM1(!showCourceM1)
+                            // setShowCourceM2(false)
                         }}>
                             <div className={s.modLeft}>
                                 <div className={s.gray}>

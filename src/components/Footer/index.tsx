@@ -5,14 +5,14 @@ export default function Footer() {
         <div className={s.root}>
             <div className={s.row}>
                 <div className={s.col}>
-                    Наш инст: @KSinstOfficial
+                    Приходите еще!
                 </div>
                 <div className={s.col}>
-                    Телефон: 8901
+                    Телефон: 89962439016
                 </div>
-                <div className={s.col}>
-                    TG: @sdjnfbsdkbjf
-                </div>
+                <a href='https://signal.me/#eu/msapODWVAwLgHsG-XeuqN0wct9YKevEKIEUWKz86-LF7HPI85TdEep-os5_TjsIF' className={s.col}>
+                    Мы в SIGNAL
+                </a>
             </div>
 
             <div className={s.bottom}>

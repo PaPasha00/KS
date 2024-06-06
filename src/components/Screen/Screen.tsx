@@ -90,7 +90,7 @@ const Screen = () => {
                             <div className={s.cost}>
                                 {cost}
                             </div>
-                            <a className={s.href} target='_blank' href="gttp">
+                            <a className={s.href} target='_blank' href="https://signal.me/#eu/msapODWVAwLgHsG-XeuqN0wct9YKevEKIEUWKz86-LF7HPI85TdEep-os5_TjsIF">
                                 ПОДРОБНЕЕ
                             </a>
                         </div>
