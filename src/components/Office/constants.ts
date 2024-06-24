@@ -2,7 +2,7 @@ export const data1 = [
     {
         link: 'https://cloud.mail.ru/public/ciN8/WVWQ2QxMa',
         text: 'Урок номер 1',
-        description: 'Описание описание lorem12',
+        description: '',
         time: '7 min',
     },
     {
