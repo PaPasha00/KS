@@ -37,13 +37,13 @@ const Office = () => {
             {
                 showCource && (
                     <div className={s.modules}>
-                        <div className={s.modBl} onClick={() => {
-                            // setShowCourceM1(!showCourceM1)
-                            // setShowCourceM2(false)
+                        <div className={s.mod} onClick={() => {
+                            setShowCourceM1(!showCourceM1)
+                            setShowCourceM2(false)
                         }}>
                             <div className={s.modLeft}>
                                 <div className={s.gray}>
-                                    1 модуль курса (12 уроков)
+                                    1 модуль курса (22 урока)
                                 </div>
                                 <div className={s.java}>
                                     Введение в Java
