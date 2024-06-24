@@ -6,7 +6,7 @@ export const data1 = [
         time: '7 min',
     },
     {
-        link: 'https://cloud.mail.ru/public/ciN8/WVWQ2QxMa',
+        link: 'https://cloud.mail.ru/public/NpZ2/78Gf6e4cw',
         text: 'Урок номер 2',
         description: 'Установка Java JDK и IntelliJ IDEA',
         time: '12 min',
